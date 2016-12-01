@@ -66,16 +66,3 @@ def html_matching_delimiters(htmlCode: str) -> bool:
                 return False
         firstTag = htmlCode.find("<", endTag + 1)
     return stack.isEmpty()
-
-if __name__ == '__main__':
-    print(matching_delimiters("[(5 + x) - (y + z)]"))
-    print(html_matching_delimiters(
-            '''
-            <div class="question" data-questionid="28977477" id="question">
-            <script>var ados = ados || {}; ados.run = ados.run || []
-            ados.run.push(function () { ados_add_placement(22,8277,"adzerk1777398790",4).setZone(43); });
-            </script>
-            <table>
-            <tbody><tr>
-            <td class="votecell">
-            <div class="vote>'''));
