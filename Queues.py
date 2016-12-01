@@ -1,53 +1,65 @@
 
 class ArrayQueues:
     """
-    circular queue implementation with array.
+    FIFO circular Queue implementation using python list as internal storage.
     """
-    def __init__(self, data: list, size: int, front: int):
-        """
+    DEAFAULT_SIZE = 10
 
-        :type data: list
-        :type size: int
-        :type front: int
-        :param data: a reference to a list instance with a fixed capacity
-        :param size: size of the queue independent of the length of data
-        :param front: a reference to where the data begin in queue
+    def __init__(self):
         """
-        self._data = data
-        self._size = size
-        self._front = front
+        _data: a reference to a list instance with a fixed capacity
+        _size: as an integer representation of the number of elements stored in queue.
+        _front: a reference to where the data begin in queue.
+        """
+        self._data = [None]*ArrayQueues.DEAFAULT_SIZE                                   # basic list
+        self._size = 0                                                                  # number of elements
+        self._front = 0                                                                 # reference to first element
 
+    @property
     def __len__(self):
         """
 
-        :return:
+        :return: the length of the queue size.
         """
-        pass
+        return len(self._size)                                                          # number of elements
 
+    @property
     def is_empty(self) -> bool:
-        pass
+        """
+
+        :return: bool True if empty, False otherwise.
+        """
+        if len(self._size) == 0:
+            return True                                                                 # there is no element
+        return False
 
     def front(self) -> object:
         """
 
         :return:
         """
-        pass
+        if self.is_empty:
+            raise Exception("empty queue exception.")
 
-    def dequeue(self, element: object) -> object:
+        return self._data[self._front]
+
+    def enqueue(self, element: object):
         """
-
-        :param element:
-        :return:
-        """
-        pass
-
-    def enqueue(self) -> object:
-        """
-
-        :return:
+        add an element to the queue
+        :param element: add element to the the queue after the front
         """
         pass
+
+    def dequeue(self) -> object:
+        """
+        remove and return current front from queue.
+        :return: deleted previous front.
+        """
+        front_value = self._data[self._front]
+        self._data[self._front] = None                                                  # delete the first element
+        self._front = (self._front + 1) % self._data                                    # increment front circularly
+        self._size -= 1                                                                 # number of elements decrements
+        return front_value
 
     def _resize(self, newsize: object):
         """
