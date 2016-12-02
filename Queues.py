@@ -11,7 +11,7 @@ class ArrayQueues:
         _size: as an integer representation of the number of elements stored in queue.
         _front: a reference to where the data begin in queue.
         """
-        self._data = [None]*ArrayQueues.DEAFAULT_SIZE                                # basic list
+        self._data = [None]*ArrayQueues.DEFAULT_SIZE                                # basic list
         self._size = 0                                                               # number of elements
         self._front = 0                                                              # reference to first element
 
@@ -66,6 +66,8 @@ class ArrayQueues:
         self._data[self._front] = None                                               # delete the first element
         self._front = (self._front + 1) % len(self._data)                            # increment front circularly
         self._size -= 1                                                              # number of elements is decremented
+        if 0 < self._size < len(self._data) // 4:
+            self._resize(len(self._data) // 2)
         return front_value
 
     def _resize(self, new_size: object):
@@ -109,6 +111,15 @@ if __name__ == '__main__':
 
     for i in "kilimanjaro":
         q.enqueue(i)
+
+    q.querry()
+
+    print()
+    print("\/\/\/\/\/\/\//new test with adding capacity//\/\/\/\/\/\/\/")
+    print()
+
+    for i in range(25):
+        q.dequeue()
 
     q.querry()
 
