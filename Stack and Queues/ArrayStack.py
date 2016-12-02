@@ -1,4 +1,4 @@
-import DynamicArray
+from Array import DynamicArray
 
 
 class ArrayStack:
