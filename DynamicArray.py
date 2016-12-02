@@ -1,5 +1,6 @@
 import ctypes
 
+
 class DynamicArray:
     """
     dynamic python array instead of python list
@@ -29,6 +30,18 @@ class DynamicArray:
         if not 0 <= index < self._number_of_actual_elements:
             raise IndexError("index out of range")
         return self._low_level_array[index]
+
+    def is_empty(self):
+        if self._number_of_actual_elements == 0:
+            return True
+        return False
+
+    def pop(self):
+        if self.is_empty():
+            raise Exception("empty array")
+        var = self._low_level_array[self._number_of_actual_elements - 1]
+        self._number_of_actual_elements -= 1
+        return var
 
     def append(self, item: object):
         """

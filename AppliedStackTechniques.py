@@ -19,7 +19,7 @@ def reverse_file(filename: str) -> object:
     print(stack.isEmpty())
     while not stack.isEmpty():
         print(stack.isEmpty())
-        output.write(stack.pop())
+        output.write(stack.pop)
         output.write('\n')
     output.close()
 
@@ -39,7 +39,7 @@ def matching_delimiters(expression: str) -> bool:
         elif c in righty:
             if stack.isEmpty():
                 return False
-            elif righty.index(c) != lefty.index(stack.pop()):
+            elif righty.index(c) != lefty.index(stack.pop):
                 return True
     return stack.isEmpty()
 
@@ -62,7 +62,10 @@ def html_matching_delimiters(htmlCode: str) -> bool:
         else:
             if stack.isEmpty():
                 return False
-            if htmlCode[1:] != stack.pop():
+            if htmlCode[1:] != stack.pop:
                 return False
         firstTag = htmlCode.find("<", endTag + 1)
     return stack.isEmpty()
+
+if __name__ == '__main__':
+    reverse_file("ds.txt")
