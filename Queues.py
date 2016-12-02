@@ -3,7 +3,7 @@ class ArrayQueues:
     """
     FIFO circular Queue implementation using python list as internal storage.
     """
-    DEAFAULT_SIZE = 10
+    DEFAULT_SIZE = 10
 
     def __init__(self):
         """
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     print()
     print("\/\/\/\/\/\/\//new test with adding capacity//\/\/\/\/\/\/\/")
     print()
-    
+
     for i in "kilimanjaro":
         q.enqueue(i)
 
