@@ -20,13 +20,13 @@ class PositionalList(_DoublyLinkedBase):
             self._container = container
             self._node = _DoublyLinkedBase._Node(node, None, None)
 
-        def __eq__(self, other: _DoublyLinkedBase._Node):
+        def __eq__(self, other: PositionalList.Position):
             """
             Return True if other is a Position representing the same location.
             """
             return type(other) is type(self) and other.node is self._node
 
-        def __ne__(self, other: _DoublyLinkedBase._Node):
+        def __ne__(self, other: PositionalList.Position):
             """
             Return True if other does not represent the same location.
             """
