@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py" line="33" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py" line="33" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bcf1238-3629-4af9-9b5b-79accb260520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Array/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedList/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Stack and Queues/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Trees/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AppliedStackTechniques.py" afterPath="$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ArrayStack.py" afterPath="$PROJECT_DIR$/Stack and Queues/ArrayStack.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DynamicArray.py" afterPath="$PROJECT_DIR$/Array/DynamicArray.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LinkedQueue.py" afterPath="$PROJECT_DIR$/LinkedList/LinkedQueue.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LinkedStack.py" afterPath="$PROJECT_DIR$/LinkedList/LinkedStack.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Queues.py" afterPath="$PROJECT_DIR$/Stack and Queues/Queues.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Tree.py" afterPath="$PROJECT_DIR$/Trees/Tree.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ds.txt" afterPath="$PROJECT_DIR$/Stack and Queues/ds.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reverse_ds.txt" afterPath="$PROJECT_DIR$/Stack and Queues/reverse_ds.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopWords.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/ApplicationTreeTraverse.py" afterPath="$PROJECT_DIR$/Trees/ApplicationTreeTraverse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/BinaryEulerTour.py" afterPath="$PROJECT_DIR$/Trees/BinaryEulerTour.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/BinaryTree.py" afterPath="$PROJECT_DIR$/Trees/BinaryTree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/EulerTour.py" afterPath="$PROJECT_DIR$/Trees/EulerTour.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/ExpressionTree.py" afterPath="$PROJECT_DIR$/Trees/ExpressionTree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/LinkedBinaryTree.py" afterPath="$PROJECT_DIR$/Trees/LinkedBinaryTree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/Tree.py" afterPath="$PROJECT_DIR$/Trees/Tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/TreeTraverse.py" afterPath="$PROJECT_DIR$/Trees/TreeTraverse.py" />
     </list>
     <ignored path="DataStructureMidTermProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +29,12 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataStructureMidTermProject$main.coverage" NAME="main Coverage Results" MODIFIED="1481107111826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$ArrayStack.coverage" NAME="ArrayStack Coverage Results" MODIFIED="1480716910050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1480683658010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$LinkedQueue.coverage" NAME="LinkedQueue Coverage Results" MODIFIED="1480716470212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$Queues.coverage" NAME="Queues Coverage Results" MODIFIED="1480674932519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataStructureMidTermProject$BST.coverage" NAME="BST Coverage Results" MODIFIED="1480914200795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$ReverseFile.coverage" NAME="ReverseFile Coverage Results" MODIFIED="1480666073324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$DynamicArray.coverage" NAME="DynamicArray Coverage Results" MODIFIED="1480675770878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -47,52 +47,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="LinkedStack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/LinkedStack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1197">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedQueue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/LinkedQueue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayStack.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+      <file leaf-file-name="DoublyLinkedBase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/DoublyLinkedBase.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queues.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+      <file leaf-file-name="LinkedDeque.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/LinkedDeque.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="91" selection-end-column="20" />
+            <state relative-caret-position="1908">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trees/Tree.py">
+      <file leaf-file-name="CircularQueue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinkedList/CircularQueue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="2952">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PositionalList.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/PositionalList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,6 +113,27 @@
         <option value="$PROJECT_DIR$/LinkedStack.py" />
         <option value="$PROJECT_DIR$/Tree.py" />
         <option value="$PROJECT_DIR$/LinkedQueue.py" />
+        <option value="$PROJECT_DIR$/Trees/ExpressionTree.py" />
+        <option value="$PROJECT_DIR$/Trees/BinaryEulerTour.py" />
+        <option value="$PROJECT_DIR$/Trees/EulerTour.py" />
+        <option value="$PROJECT_DIR$/Trees/TreeTraverse.py" />
+        <option value="$PROJECT_DIR$/Trees/ApplicationTreeTraverse.py" />
+        <option value="$PROJECT_DIR$/Trees/LinkedBinaryTree.py" />
+        <option value="$PROJECT_DIR$/Trees/BinaryTree.py" />
+        <option value="$PROJECT_DIR$/Trees/Tree.py" />
+        <option value="$PROJECT_DIR$/Trees/BST2.py" />
+        <option value="$PROJECT_DIR$/LinkedList/LinkedList.py" />
+        <option value="$PROJECT_DIR$/Trees/Tery.py" />
+        <option value="$PROJECT_DIR$/Trees/Trey.py" />
+        <option value="$PROJECT_DIR$/Trees/TST.py" />
+        <option value="$PROJECT_DIR$/Trees/Trie.py" />
+        <option value="$PROJECT_DIR$/Trees/BST.py" />
+        <option value="$PROJECT_DIR$/LinkedList/CircularQueue.py" />
+        <option value="$PROJECT_DIR$/LinkedList/DoublyLinkedBase.py" />
+        <option value="$PROJECT_DIR$/LinkedList/LinkedDeque.py" />
+        <option value="$PROJECT_DIR$/lll/TST.py" />
+        <option value="$PROJECT_DIR$/LinkedList/PositionalList.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -179,13 +192,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataStructureMidTermProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructureMidTermProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructureMidTermProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -212,7 +234,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Stack and Queues" />
+              <option name="myItemId" value="Stack_and_Queues" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,6 +268,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -253,16 +276,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Goodrich-master" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lll" />
       <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Trees" />
       <recent name="$PROJECT_DIR$/Stack and Queues" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ArrayStack">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="LinkedQueue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,6 +302,42 @@
       <module name="DataStructureMidTermProject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/LinkedQueue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataStructureMidTermProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lll/BSt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataStructureMidTermProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -579,17 +640,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Python.DynamicArray" />
       <item index="1" class="java.lang.String" itemvalue="Python.LinkedList" />
       <item index="2" class="java.lang.String" itemvalue="Python.ReverseFile" />
       <item index="3" class="java.lang.String" itemvalue="Python.ArrayStack" />
       <item index="4" class="java.lang.String" itemvalue="Python.Queues" />
       <item index="5" class="java.lang.String" itemvalue="Python.LinkedQueue" />
+      <item index="6" class="java.lang.String" itemvalue="Python.BST" />
+      <item index="7" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.LinkedQueue" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BST" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LinkedQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -613,13 +678,13 @@
     <frame x="0" y="48" width="3840" height="2112" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14712153" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867494" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -651,23 +716,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedQueue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -675,19 +724,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/AppliedStackTechniques.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2412">
           <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/Queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3888">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,11 +742,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -707,23 +753,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/AppliedStackTechniques.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/Queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -731,23 +775,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/AppliedStackTechniques.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/Queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -755,23 +797,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/AppliedStackTechniques.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/Queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -779,23 +819,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/AppliedStackTechniques.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/Queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -803,19 +841,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/AppliedStackTechniques.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/Queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,25 +863,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reverse_ds2.txt" />
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ds.txt">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ds.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/reverse_ds.txt">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/reverse_ds.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/AppliedStackTechniques.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/AppliedStackTechniques.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,27 +905,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/Tree.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/ArrayStack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Stack_and_Queues/Queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="91" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,14 +924,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedStack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/ExpressionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/EulerTour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/TreeTraverse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/ApplicationTreeTraverse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/BinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/BinaryEulerTour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/LinkedBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-563466115/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="771" column="8" selection-start-line="771" selection-start-column="8" selection-end-line="771" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack and Queues/ArrayStack.py">
+    <entry file="file://$PROJECT_DIR$/lll/BSt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lll/BST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lll/Trie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lll/TST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lll/LinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedDeque.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/CircularQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2952">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/DoublyLinkedBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/PositionalList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StopWords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,1 @@
+# doshanbe bayad in ro hall konim
