@@ -109,3 +109,50 @@ class TreeMap(LinkedBinaryTree, MapBase):
         self._delete(p)                                                       # inherited from LinkedBinaryTree
         self._rebalance_delete(parent)                                        # if root deleted, parent is None
 
+    # --------------------- public methods for (standard) map interface ---------------------
+    def __getitem__(self, k):
+        """Return value associated with key k (raise KeyError if not found)."""
+        if self.is_empty():
+            raise KeyError('Key Error: ' + repr(k))
+        else:
+            p = self._subtree_search(self.root(), k)
+            self._rebalance_access(p)                                         # hook for balanced tree subclasses
+            if k != p.key():
+                raise KeyError('Key Error: ' + repr(k))
+            return p.value()
+
+    def __setitem__(self, k, v):
+        """Assign value v to key k, overwriting existing value if present."""
+        if self.is_empty():
+            leaf = self._add_root(self._Item(k, v))                           # from LinkedBinaryTree
+        else:
+            p = self._subtree_search(self.root(), k)
+            if p.key() == k:
+                p.element()._value = v                                        # replace existing item's value
+                self._rebalance_access(p)                                     # hook for balanced tree subclasses
+                return
+            else:
+                item = self._Item(k, v)
+                if p.key() < k:
+                    leaf = self._add_right(p, item)                           # inherited from LinkedBinaryTree
+                else:
+                    leaf = self._add_left(p, item)                            # inherited from LinkedBinaryTree
+        self._rebalance_insert(leaf)                                          # hook for balanced tree subclasses
+
+    def __delitem__(self, k):
+        """Remove item associated with key k (raise KeyError if not found)."""
+        if not self.is_empty():
+            p = self._subtree_search(self.root(), k)
+            if k == p.key():
+                self.delete(p)                                                # rely on positional version
+                return                                                        # successful deletion complete
+            self._rebalance_access(p)                                         # hook for balanced tree subclasses
+        raise KeyError('Key Error: ' + repr(k))
+
+    def __iter__(self):
+        """Generate an iteration of all keys in the map in order."""
+        p = self.first()
+        while p is not None:
+            yield p.key()
+            p = self.after(p)
+
