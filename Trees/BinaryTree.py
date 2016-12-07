@@ -24,4 +24,14 @@ class BinaryTree(Tree, metaclass=ABCMeta):
         """
         raise NotImplementedError('must be implemented by subclass')
 
-    
+    # ---------- concrete methods implemented in this class ----------
+    def sibling(self, p):
+        """Return a Position representing p's sibling (or None if no sibling)."""
+        parent = self.parent(p)
+        if parent is None:                                                  # p must be the root
+            return None                                                     # root has no sibling
+        else:
+            if p == self.left(parent):
+                return self.right(parent)                                   # possibly None
+            else:
+                return self.left(parent)                                    # possibly None
