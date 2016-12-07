@@ -31,3 +31,17 @@ class TreeMap(LinkedBinaryTree, MapBase):
                 return self._subtree_search(self.right(p), k)
         return p                                                            # unsucessful search
 
+    def _subtree_first_position(self, p):
+        """Return Position of first item in subtree rooted at p."""
+        walk = p
+        while self.left(walk) is not None:                                  # keep walking left
+            walk = self.left(walk)
+        return walk
+
+    def _subtree_last_position(self, p):
+        """Return Position of last item in subtree rooted at p."""
+        walk = p
+        while self.right(walk) is not None:                                 # keep walking right
+            walk = self.right(walk)
+        return walk
+
