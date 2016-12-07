@@ -63,3 +63,5 @@ class BinaryTree(Tree, metaclass=ABCMeta):
     def positions(self):
         """Generate an iteration of the tree's positions."""
         return self.inorder()                                               # make inorder the default
+
+#NOT TDD
