@@ -170,3 +170,7 @@ class PositionalList(_DoublyLinkedBase):
         old_value = original.element                                            # temporarily store old element
         original._element = e                                                   # replace with new element
         return old_value                                                        # return the old element value
+
+
+# not test
+

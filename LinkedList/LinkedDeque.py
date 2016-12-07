@@ -55,3 +55,5 @@ class LinkedDeque(_DoublyLinkedBase):
         if self.is_empty():
             raise Exception("Deque is empty")
         return self._delete_node(self._trailer._prev)
+
+# not test
