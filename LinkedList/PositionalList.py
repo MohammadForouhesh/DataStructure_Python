@@ -1,1 +1,3 @@
-# yekshanbe bayad in ro hall konim
+from LinkedList.DoublyLinkedBase import _DoublyLinkedBase
+
+
