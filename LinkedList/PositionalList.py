@@ -7,9 +7,10 @@ class PositionalList(_DoublyLinkedBase):
 
     # -------------------------- nested Position class --------------------------
     class Position(metaclass=ABCMeta):
+
         def __init__(self, container, node):
             self._container = container
-            self._node = node
+            self._node = _DoublyLinkedBase._Node(node, None, None)
 
         def element(self):
             """
@@ -17,13 +18,13 @@ class PositionalList(_DoublyLinkedBase):
             """
             return self._node._element
 
-        def __eq__(self, other):
+        def __eq__(self, other: _DoublyLinkedBase._Node):
             """
             Return True if other is a Position representing the same location.
             """
             return type(other) is type(self) and other._node is self._node
 
-        def __ne__(self, other):
+        def __ne__(self, other: _DoublyLinkedBase._Node):
             """
             Return True if other does not represent the same location.
             """
