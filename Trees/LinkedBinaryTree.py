@@ -40,13 +40,14 @@ class LinkedBinaryTree(BinaryTree):
             self._container = container
             self._node = node
 
-        def element(self):
-            """Return the element stored at this Position."""
-            return self._node.element
-
         def __eq__(self, other):
             """Return True if other is a Position representing the same location."""
             return type(other) is type(self) and other._node is self._node
+
+        @property
+        def element(self):
+            """Return the element stored at this Position."""
+            return self._node.element
 
         @property
         def container(self):
