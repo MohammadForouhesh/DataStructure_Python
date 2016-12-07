@@ -7,6 +7,14 @@ class PositionalList(_DoublyLinkedBase):
 
     # -------------------------- nested Position class --------------------------
     class Position(metaclass=ABCMeta):
+        """An abstraction representing the location of a single element.
+        Note that two position instances may represent the same inherent
+        location in the list, so We should always rely on
+        syntax 'p == q' rather than 'p is q' in testing equivalence of
+        positions.
+        """
+
+        __slots__ = '_node', '_container'
 
         def __init__(self, container, node):
             self._container = container
@@ -28,5 +36,4 @@ class PositionalList(_DoublyLinkedBase):
             """
             Return True if other does not represent the same location.
             """
-            return not (self == other)                                                 # opposite of __eq__
-
+            return not (self == other)  # opposite of __eq__
