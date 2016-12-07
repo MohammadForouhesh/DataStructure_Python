@@ -35,7 +35,7 @@ class LinkedBinaryTree(BinaryTree):
     class Position(BinaryTree.Position):
         """An abstraction representing the location of a single element."""
 
-        def __init__(self, container, node: LinkedBinaryTree._Node):
+        def __init__(self, container, node):
             """Constructor should not be invoked by user."""
             self._container = container
             self._node = node
@@ -44,7 +44,7 @@ class LinkedBinaryTree(BinaryTree):
             """Return the element stored at this Position."""
             return self._node.element
 
-        def __eq__(self, other: LinkedBinaryTree.Position):
+        def __eq__(self, other):
             """Return True if other is a Position representing the same location."""
             return type(other) is type(self) and other._node is self._node
 
@@ -193,13 +193,15 @@ class LinkedBinaryTree(BinaryTree):
         if not type(self) is type(t1) is type(t2):                                  # all 3 trees must be same type
             raise TypeError('Tree types must match')
         self._size += len(t1) + len(t2)
-        if not t1.is_empty():                                                       # attached t1 as left subtree of node
+        if not t1.is_empty:                                                         # attached t1 as left subtree of node
             t1._root._parent = node
             node._left = t1._root
             t1._root = None                                                         # set t1 instance to empty
             t1._size = 0
-        if not t2.is_empty():                                                       # attached t2 as right subtree of node
+        if not t2.is_empty:                                                         # attached t2 as right subtree of node
             t2._root._parent = node
             node._right = t2._root
             t2._root = None                                                         # set t2 instance to empty
             t2._size = 0
+
+# not TDD

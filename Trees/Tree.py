@@ -17,11 +17,11 @@ class Tree(metaclass=ABCMeta):
             """Return the element stored at this Position."""
             raise NotImplementedError('must be implemented by subclass')
 
-        def __eq__(self, other: Tree.Position):
+        def __eq__(self, other):
             """Return True if other Position represents the same location."""
             raise NotImplementedError('must be implemented by subclass')
 
-        def __ne__(self, other: Tree.Position):
+        def __ne__(self, other):
             """Return True if other does not represent the same location."""
             return not (self == other)                                              # opposite of __eq__
 
