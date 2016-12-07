@@ -1,4 +1,5 @@
-from LinkedList import LinkedList,Node
+from lll.LinkedList import LinkedList
+
 
 class NodeTrie():
     def __init__(self,character = None):

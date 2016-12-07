@@ -1,4 +1,4 @@
-from LinkedList import Node,LinkedList
+from lll.LinkedList import LinkedList
 
 class NodeTST():
     def __init__(self,character = None):
@@ -79,4 +79,3 @@ class TST():
             self.traverse(node.middleChild,charWord+node.character)
         if(node.completeWord):
             print (charWord+node.character)
-Contact GitHub

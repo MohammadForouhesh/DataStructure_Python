@@ -1,5 +1,5 @@
 
-from LinkedList import LinkedList
+from lll.LinkedList import LinkedList
 
 
 class NodeBST():
