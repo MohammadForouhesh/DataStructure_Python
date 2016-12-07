@@ -33,21 +33,18 @@ class Tree(metaclass=ABCMeta):
         """
         raise NotImplementedError('must be implemented by subclass')
 
-    @property
     def parent(self, p):
         """
         Return Position representing p's parent (or None if p is root).
         """
         raise NotImplementedError('must be implemented by subclass')
 
-    @property
     def num_children(self, p):
         """
         Return the number of children that Position p has.
         """
         raise NotImplementedError('must be implemented by subclass')
 
-    @property
     def children(self, p):
         """
         Generate an iteration of Positions representing p's children.
@@ -62,14 +59,12 @@ class Tree(metaclass=ABCMeta):
         raise NotImplementedError('must be implemented by subclass')
 
     # ---------- concrete methods implemented in this class ----------
-    @property
     def is_root(self, p):
         """
         Return True if Position p represents the root of the tree.
         """
         return self.root() == p
 
-    @property
     def is_leaf(self, p):
         """
         Return True if Position p does not have any children.
@@ -83,7 +78,6 @@ class Tree(metaclass=ABCMeta):
         """
         return len(self) == 0
 
-    @property
     def depth(self, p):
         """
         Return the number of levels separating Position p from the root.
@@ -134,7 +128,7 @@ class Tree(metaclass=ABCMeta):
         """
         Generate a preorder iteration of positions in the tree.
         """
-        if not self.is_empty():
+        if not self.is_empty:
             for p in self._subtree_preorder(self.root()):                           # start recursion
                 yield p
 
@@ -151,7 +145,7 @@ class Tree(metaclass=ABCMeta):
         """
         Generate a postorder iteration of positions in the tree.
         """
-        if not self.is_empty():
+        if not self.is_empty:
             for p in self._subtree_postorder(self.root()):                          # start recursion
                 yield p
 
@@ -168,7 +162,7 @@ class Tree(metaclass=ABCMeta):
         """
         Generate a breadth-first iteration of the positions of the tree.
         """
-        if not self.is_empty():
+        if not self.is_empty:
             fringe = LinkedQueue()                                                  # known positions not yet yielded
             fringe.enqueue(self.root())                                             # starting with the root
             while not fringe.is_empty():
