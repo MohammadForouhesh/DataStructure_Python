@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bcf1238-3629-4af9-9b5b-79accb260520" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Trees/ApplicationTreeTraverse.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Trees/BinaryEulerTour.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Trees/TreeTraverse.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/EulerTour.py" afterPath="$PROJECT_DIR$/Trees/EulerTour.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/ExpressionTree.py" afterPath="$PROJECT_DIR$/Trees/ExpressionTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/LinkedBinaryTree.py" afterPath="$PROJECT_DIR$/Trees/LinkedBinaryTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trees/Tree.py" afterPath="$PROJECT_DIR$/Trees/Tree.py" />
     </list>
     <ignored path="DataStructureMidTermProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +22,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$main.coverage" NAME="main Coverage Results" MODIFIED="1481107111826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataStructureMidTermProject$ExpressionTree.coverage" NAME="ExpressionTree Coverage Results" MODIFIED="1481119320253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees" />
+    <SUITE FILE_PATH="coverage/DataStructureMidTermProject$ExpressionTree.coverage" NAME="ExpressionTree Coverage Results" MODIFIED="1481119778235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$ArrayStack.coverage" NAME="ArrayStack Coverage Results" MODIFIED="1480716910050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1480683658010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructureMidTermProject$LinkedQueue.coverage" NAME="LinkedQueue Coverage Results" MODIFIED="1480716470212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -59,7 +55,7 @@
       <file leaf-file-name="BinaryTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trees/BinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2376">
+            <state relative-caret-position="1034">
               <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -68,22 +64,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExpressionTree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExpressionTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trees/ExpressionTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2962">
-              <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeTraverse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trees/TreeTraverse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="3996">
+              <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,17 +79,17 @@
       <file leaf-file-name="LinkedBinaryTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trees/LinkedBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="7200">
               <caret line="200" column="84" selection-start-line="200" selection-start-column="84" selection-end-line="200" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EulerTour.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EulerTour.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trees/EulerTour.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
+            <state relative-caret-position="4608">
               <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding />
             </state>
@@ -150,9 +138,9 @@
         <option value="$PROJECT_DIR$/LinkedList/PositionalList.py" />
         <option value="$PROJECT_DIR$/Trees/BinaryTree.py" />
         <option value="$PROJECT_DIR$/Trees/EulerTour.py" />
-        <option value="$PROJECT_DIR$/Trees/ExpressionTree.py" />
         <option value="$PROJECT_DIR$/Trees/Tree.py" />
         <option value="$PROJECT_DIR$/Trees/LinkedBinaryTree.py" />
+        <option value="$PROJECT_DIR$/Trees/ExpressionTree.py" />
       </list>
     </option>
   </component>
@@ -1079,36 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/EulerTour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/ApplicationTreeTraverse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/TreeTraverse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1123,18 +1085,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/TreeTraverse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/LinkedBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="7200">
           <caret line="200" column="84" selection-start-line="200" selection-start-column="84" selection-end-line="200" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/BinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/ExpressionTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2962">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        <state relative-caret-position="3996">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/EulerTour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4608">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding />
         </state>
       </provider>
