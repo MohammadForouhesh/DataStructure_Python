@@ -16,6 +16,18 @@ class _DoublyLinkedBase:
             self._prev = prev                                   # previous node reference
             self._next = next                                   # next node reference
 
+        @property
+        def next(self):
+            return self._next
+
+        @property
+        def element(self):
+            return self._element
+
+        @property
+        def prev(self):
+            return self._prev
+
     # -------------------------- list constructor --------------------------
 
     def __init__(self):
