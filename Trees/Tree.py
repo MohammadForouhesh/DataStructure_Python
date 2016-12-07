@@ -1,5 +1,5 @@
 from LinkedList.LinkedQueue import LinkedQueue
-from abc import ABCMeta
+from abc import ABCMeta, abstractmethod
 
 
 class Tree(metaclass=ABCMeta):
@@ -23,35 +23,37 @@ class Tree(metaclass=ABCMeta):
 
         def __ne__(self, other: Tree.Position):
             """Return True if other does not represent the same location."""
-            return not (self == other)                                  # opposite of __eq__
+            return not (self == other)                                              # opposite of __eq__
 
     # ---------- abstract methods that concrete subclass must support ----------
-    @property
+    @abstractmethod
     def root(self):
         """
         Return Position representing the tree's root (or None if empty).
         """
         raise NotImplementedError('must be implemented by subclass')
-
+    @abstractmethod
     def parent(self, p):
         """
         Return Position representing p's parent (or None if p is root).
         """
         raise NotImplementedError('must be implemented by subclass')
 
+    @abstractmethod
     def num_children(self, p):
         """
         Return the number of children that Position p has.
         """
         raise NotImplementedError('must be implemented by subclass')
 
+    @abstractmethod
     def children(self, p):
         """
         Generate an iteration of Positions representing p's children.
         """
         raise NotImplementedError('must be implemented by subclass')
 
-    @property
+    @abstractmethod
     def __len__(self):
         """
         Return the total number of elements in the tree.
