@@ -170,7 +170,7 @@ class TreeMap(LinkedBinaryTree, MapBase):
             return None
         else:
             p = self.first()
-            return (p.key(), p.value())
+            return p.key(), p.value()
 
     def find_max(self):
         """Return (key,value) pair with maximum key (or None if empty)."""
@@ -178,7 +178,7 @@ class TreeMap(LinkedBinaryTree, MapBase):
             return None
         else:
             p = self.last()
-            return (p.key(), p.value())
+            return p.key(), p.value()
 
     def find_le(self, k):
         """Return (key,value) pair with greatest key less than or equal to k.
